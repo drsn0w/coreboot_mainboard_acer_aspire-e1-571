@@ -1,4 +1,6 @@
 Category: laptop
+ROM package: SOIC-8
 ROM protocol: SPI
+ROM socketed: n
 Flashrom support: n
-FIXME: put ROM package, ROM socketed, Release year
+Release year: 2012

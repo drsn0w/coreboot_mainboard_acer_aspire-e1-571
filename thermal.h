@@ -1,7 +1,8 @@
 /*
  * This file is part of the coreboot project.
  *
- * Copyright (C) 2012 The ChromiumOS Authors.  All rights reserved.
+ * Copyright (C) 2011 The Chromium OS Authors. All rights reserved.
+ * Copyright (C) 2014 Vladimir Serbinenko
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -11,13 +12,15 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program; if not, write to the Free Software
- * Foundation, Inc.
  */
 
-/* mainboard configuration */
+#ifndef ASPIRE_E1-571_THERMAL_H
+#define ASPIRE_E1-571_THERMAL_H
 
-#define SIO_EC_ENABLE_PS2K       // Enable PS/2 Keyboard
-#define SIO_ENABLE_PS2M          // Enable PS/2 Mouse
+	/* Temperature which OS will shutdown at */
+	#define CRITICAL_TEMPERATURE	100
+
+	/* Temperature which OS will throttle CPU */
+	#define PASSIVE_TEMPERATURE	90
+
+#endif
