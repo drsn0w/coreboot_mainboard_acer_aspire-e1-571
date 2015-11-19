@@ -1,4 +1,4 @@
-if BOARD_ACER_ASPIRE_E1-571
+if BOARD_ACER_ASPIRE_E1_571
 
 config BOARD_SPECIFIC_OPTIONS # dummy
 	def_bool y
