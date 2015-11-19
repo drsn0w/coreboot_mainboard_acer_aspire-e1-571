@@ -14,8 +14,8 @@
  * GNU General Public License for more details.
  */
 
-#ifndef ASPIRE_E1_571_THERMAL_H
-#define ASPIRE_E1_571_THERMAL_H
+#ifndef ACER_ASPIRE_E1_571_THERMAL_H
+#define ACER_ASPIRE_E1_571_THERMAL_H
 
 	/* Temperature which OS will shutdown at */
 	#define CRITICAL_TEMPERATURE	100
