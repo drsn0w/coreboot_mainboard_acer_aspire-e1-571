@@ -1,0 +1,2 @@
+config BOARD_ACER_ASPIRE_E1-571
+	bool "Aspire E1-571"
